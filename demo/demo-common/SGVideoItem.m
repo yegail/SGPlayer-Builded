@@ -19,18 +19,17 @@
     
     NSMutableArray *items = [NSMutableArray array];
     {
-        //rtmp://ns8.indexforce.com/home/mystream
         SGVideoItem *item = [[SGVideoItem alloc] init];
-        item.name = @"I See Fire";
-        item.asset = [SGAsset assetWithURL:[NSURL URLWithString:@"rtmp://ns8.indexforce.com/home/mystream"]];
+        item.name = @"m3u8播放列表";
+        item.asset = [SGAsset assetWithURL:[NSURL URLWithString:@"http://vod.wzqmt.com/video/2022/11/15/80f4df7d167333a3febc213b0b289933.m3u8"]];
         item.displayMode = SGDisplayModePlane;
         [items addObject:item];
     }
     {
         SGVideoItem *item = [[SGVideoItem alloc] init];
-        item.name = @"news.ts";
-        item.asset = [SGAsset assetWithURL:ts];
-        item.displayMode = SGDisplayModeVR;
+        item.name = @"m3u8播放列表1";
+        item.asset = [SGAsset assetWithURL:[NSURL URLWithString:@"https://live.wzqmt.com/wztv1/sd/1668496800000,9000000.m3u8?_upt=13df98071668593387"]];
+        item.displayMode = SGDisplayModePlane;
         [items addObject:item];
     }
     {
