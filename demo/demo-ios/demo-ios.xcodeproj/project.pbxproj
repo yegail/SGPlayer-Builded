@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790C83982921EC120019C810 /* 6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts in Resources */ = {isa = PBXBuildFile; fileRef = 790C83972921EC120019C810 /* 6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts */; };
+		790C83982921EC120019C810 /* news.ts in Resources */ = {isa = PBXBuildFile; fileRef = 790C83972921EC120019C810 /* news.ts */; };
 		9C02F6521E79293A00932489 /* SGPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C02F6501E79293A00932489 /* SGPlayViewController.xib */; };
 		9C03E5F3212E732B001F0E1B /* SGPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5F2212E732B001F0E1B /* SGPlayViewController.m */; };
 		9C36DD461E79538500959FDA /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C36DD441E79538500959FDA /* google-help-vr.mp4 */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		790C83972921EC120019C810 /* 6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts"; sourceTree = "<group>"; };
+		790C83972921EC120019C810 /* news.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = news.ts; sourceTree = "<group>"; };
 		9C02F64E1E79293A00932489 /* SGPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPlayViewController.h; sourceTree = "<group>"; };
 		9C02F6501E79293A00932489 /* SGPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGPlayViewController.xib; sourceTree = "<group>"; };
 		9C03E5F2212E732B001F0E1B /* SGPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPlayViewController.m; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		9C886B961E78EC9F00F2CFD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				790C83972921EC120019C810 /* 6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts */,
+				790C83972921EC120019C810 /* news.ts */,
 				9C886BA21E78EC9F00F2CFD1 /* Assets.xcassets */,
 				9C36DD441E79538500959FDA /* google-help-vr.mp4 */,
 				9C36DD451E79538500959FDA /* i-see-fire.mp4 */,
@@ -239,7 +239,7 @@
 				9C886BA11E78EC9F00F2CFD1 /* Main.storyboard in Resources */,
 				9C02F6521E79293A00932489 /* SGPlayViewController.xib in Resources */,
 				9C36DD471E79538500959FDA /* i-see-fire.mp4 in Resources */,
-				790C83982921EC120019C810 /* 6cf170723b264ce266e90a1fdba5e13f,418120000,8880000.ts in Resources */,
+				790C83982921EC120019C810 /* news.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

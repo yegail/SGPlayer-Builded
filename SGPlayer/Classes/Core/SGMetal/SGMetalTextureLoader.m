@@ -134,7 +134,9 @@
                                                        height:heights[i]
                                                         bytes:bytes[i]
                                                   bytesPerRow:bytesPerRow[i]];
-        [textures addObject:texture];
+        if (texture) {
+            [textures addObject:texture];
+        }
     }
     return textures.count ? textures : nil;
 }

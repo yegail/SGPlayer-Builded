@@ -14,7 +14,7 @@
 {
     NSURL *i_see_fire = [[NSBundle mainBundle] URLForResource:@"i-see-fire" withExtension:@"mp4"];
     NSURL *google_help_vr = [[NSBundle mainBundle] URLForResource:@"google-help-vr" withExtension:@"mp4"];
-    NSURL *ts = [[NSBundle mainBundle] URLForResource:@"6cf170723b264ce266e90a1fdba5e13f,418120000,8880000" withExtension:@"ts"];
+    NSURL *ts = [[NSBundle mainBundle] URLForResource:@"news" withExtension:@"ts"];
     
     
     NSMutableArray *items = [NSMutableArray array];
@@ -28,15 +28,15 @@
     }
     {
         SGVideoItem *item = [[SGVideoItem alloc] init];
-        item.name = @"温州新闻.ts";
+        item.name = @"news.ts";
         item.asset = [SGAsset assetWithURL:ts];
-        item.displayMode = SGDisplayModePlane;
+        item.displayMode = SGDisplayModeVR;
         [items addObject:item];
     }
     {
         SGMutableAsset *asset = [[SGMutableAsset alloc] init];
         SGMutableTrack *track = [asset addTrack:SGMediaTypeVideo];
-        SGSegment *segment = [SGSegment segmentWithURL:i_see_fire index:0];
+        SGSegment *segment = [SGSegment segmentWithURL:ts index:0];
         [track appendSegment:segment];
         
         SGVideoItem *item = [[SGVideoItem alloc] init];
